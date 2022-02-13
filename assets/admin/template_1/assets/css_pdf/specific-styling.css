@@ -1,0 +1,174 @@
+@media screen,
+            print {
+
+                /* ### DESIGN SPECIFIC - TYPOGRAPHY ### */
+                .printer-preview-content .t36045 h1 {
+                    font-family: 'Lato';
+                    font-weight: bold;
+                    color: #aed8fd;
+                }
+
+                .printer-preview-content .t36045 h2 {
+                    font-family: 'Lato';
+                }
+
+                .printer-preview-content .t36045 h3 {
+                    font-family: 'Lato';
+                    color: #f89900;
+                }
+
+                /* ### DESIGN SPECIFIC - LOGO POSITIONING ### */
+                .printer-preview-content .t36045 .logo {
+                    float: right;
+                    padding-right: 0;
+                    margin-bottom: 16px;
+                }
+
+                /* ### DESIGN SPECIFIC - STORE DETAILS ### */
+                .printer-preview-content .t36045 .shop-block {
+                    text-align: center;
+                }
+
+                .printer-preview-content .t36045 .shop-block .shop-address-block b,
+                .printer-preview-content .t36045 .shop-block .shop-address-block b * {
+                    color: #000000;
+                }
+
+                .printer-preview-content .t36045 .shop-block .shop-domain {
+                    color: #000000;
+                }
+
+                .printer-preview-content .t36045 .shop-return-address b,
+                .printer-preview-content .t36045 .shop-return-address b * {
+                    color: #000000;
+                }
+
+                /* ### DESIGN SPECIFIC - ORDER DETAILS ### */
+                .printer-preview-content .t36045 .order-details-title {
+                    display: inline-block;
+                    font-weight: bold;
+                    color: #000000;
+                }
+
+                /* ### DESIGN SPECIFIC - BILL TO AND SHIP TO ADDRESS ### */
+                .printer-preview-content .t36045 .address-title {
+                    font-weight: bold;
+                    color: #000000;
+                }
+
+                /* ### DESIGN SPECIFIC - TABLE HEADER ### */
+                .printer-preview-content .t36045 .order-table thead tr th {
+                    padding-left: 4px;
+                    padding-right: 4px;
+                    border-top: 2px solid #98abbd;
+                    padding-top: 6px;
+                    border-bottom: 2px solid #d3d3d3;
+                    padding-bottom: 6px;
+                    font-weight: bold;
+                    color: #181209;
+                }
+
+                /* ### DESIGN SPECIFIC - TABLE BODY (SHARED) ### */
+                .printer-preview-content .t36045 .order-table tbody tr td,
+                .printer-preview-content .t36045 .pricing-table tbody tr td {
+                    padding-left: 4px;
+                    padding-right: 4px;
+                    border-top: 0;
+                    padding-top: 8px;
+                    border-bottom: 1px solid #d3d3d3;
+                    padding-bottom: 7px;
+                }
+
+                /* ### DESIGN SPECIFIC - ORDER TABLE SPECIFIC ### */
+                .printer-preview-content .t36045 .order-table tbody>tr>td.line-item-description,
+                .printer-preview-content .t36045 .order-table tbody>tr>td.line-item-qty {
+                    font-weight: bold;
+                    color: #000000;
+                }
+
+                .printer-preview-content .t36045 .order-table tbody>tr>td.line-item-description p.line-item-sku {
+                    font-weight: normal;
+                }
+
+                /* ### DESIGN SPECIFIC - PRICING TABLE SPECIFIC ### */
+                .printer-preview-content .t36045 .pricing-table tbody>tr.pricing-table-total-row>td {
+                    border-top: 2px solid #aed8fd;
+                    border-bottom: 2px solid #aed8fd;
+                    padding-bottom: 6px;
+                }
+
+                .printer-preview-content .t36045 .pricing-table tbody>tr>td.pricing-table-title,
+                .printer-preview-content .t36045 .pricing-table tbody>tr>td.pricing-table-title span {
+                    font-weight: bold;
+                    color: #000000;
+                }
+
+                .printer-preview-content .t36045 .pricing-table tbody>tr.pricing-table-total-row .pricing-table-title,
+                .printer-preview-content .t36045 .pricing-table tbody>tr.pricing-table-total-row .pricing-table-text {
+                    font-weight: bold;
+                    color: #000000;
+                }
+
+                /* ### DESIGN SPECIFIC - ORDER NOTES ### */
+                .printer-preview-content .t36045 .notes-title {
+                    font-weight: bold;
+                    color: #000000;
+                }
+
+                /* ### DESIGN SPECIFIC - RETURN FORM REASON CODES ### */
+                .printer-preview-content .t36045 .return-codes b,
+                .printer-preview-content .t36045 .return-code b * {
+                    font-weight: bold;
+                    color: #000000;
+                }
+
+                /* ### DESIGN SPECIFIC - THANK YOU MESSAGE ### */
+                .printer-preview-content .t36045 .thanks-text {
+                    text-align: center;
+                    font-weight: bold;
+                    color: #f89900;
+                }
+
+                .printer-preview-content .t36045 .thanks-text * {
+                    font-weight: bold;
+                    color: #151516;
+                }
+
+                /* ### DESIGN SPECIFIC - GIFT MESSAGE ### */
+                .printer-preview-content .t36045 .gift-text {
+                    text-align: center;
+                    font-weight: bold;
+                    width: 80%;
+                    margin: 0 10%;
+                    padding-bottom: 16px;
+                    font-size: 18px;
+                }
+
+                .printer-preview-content .t36045 .gift-text * {
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+
+                .printer-preview-content .t36045 .gift-text svg {
+                    padding-bottom: 8px;
+                }
+
+                /* ### DESIGN SPECIFIC - TERMS AND CONDITIONS ### */
+                .printer-preview-content .t36045 .terms-text {
+                    font-size: 10px;
+                    text-align: center;
+                }
+
+                .printer-preview-content .t36045 .terms-text * {
+                    font-size: 10px;
+                }
+
+                /* ### DESIGN SPECIFIC - SOCIAL ICONS ### */
+                .printer-preview-content .t36045 .social-icons {
+                    display: inline;
+                    width: 20px;
+                    margin: 8px 4px;
+                }
+                
+
+            }

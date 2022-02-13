@@ -1,0 +1,38 @@
+
+        .wdp-wrapper {
+
+            font-size: 14px
+        }
+
+
+
+        .wdp-wrapper ul.wdp-container-comments li.wdp-item-comment .wdp-comment-avatar img {
+
+            max-width: 28px;
+
+            max-height: 28px;
+
+        }
+
+        .wdp-wrapper ul.wdp-container-comments li.wdp-item-comment .wdp-comment-content {
+
+            margin-left: 38px;
+
+        }
+
+        .wdp-wrapper ul.wdp-container-comments li.wdp-item-comment ul .wdp-comment-avatar img {
+
+            max-width: 24px;
+
+            max-height: 24px;
+
+        }
+
+        .wdp-wrapper ul.wdp-container-comments li.wdp-item-comment ul ul .wdp-comment-avatar img {
+
+            max-width: 21px;
+
+            max-height: 21px;
+
+        }
+    

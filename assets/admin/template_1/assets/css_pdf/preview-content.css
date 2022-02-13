@@ -1,0 +1,466 @@
+/* ### BASE - PAGE SIZING AND MARGIN SETUP NORMALIZATION ACROSS BROWSERS ### */
+
+@page {
+    margin: 12mm !important;
+    margin-top: 12mm !important;
+    margin-right: 12mm !important;
+    margin-bottom: 12mm !important;
+    margin-left: 12mm !important;
+}
+
+@media print {
+    .safari {
+        padding-top: 15px;
+        box-sizing: border-box;
+    }
+
+    .printer-preview-content .printer-preview-content {
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen {
+    .printer-preview-content {
+        padding: 16px 0;
+        min-height: 800px;
+        /* background-image: url(http://basehold.it/i/16) */
+    }
+
+    .printer-preview-content .printer-preview-content {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 679px;
+    }
+}
+
+@media screen,
+print {
+
+    /* ### BASE - TYPOGRAPHY AND REMOVAL OF STANDARD SHOPIFY STYLING ### */
+    .printer-preview-content .t36045 * {
+        color: #333333;
+        font-family: 'Lato';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        text-rendering: optimizeLegibility;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        -webkit-print-color-adjust: exact;
+        overflow: visible !important;
+    }
+
+    .printer-preview-content .t36045 h1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .printer-preview-content .t36045 h2 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .printer-preview-content .t36045 h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .printer-preview-content .t36045 h1,
+    .printer-preview-content .t36045 h2,
+    .printer-preview-content .t36045 h3 {
+        margin-bottom: 16px;
+    }
+
+    .printer-preview-content .t36045 b,
+    .printer-preview-content .t36045 b * {
+        font-weight: bold;
+    }
+
+    .printer-preview-content .t36045 .text-right {
+        text-align: right;
+    }
+
+    .printer-preview-content .t36045 .text-center {
+        text-align: center;
+    }
+
+    .printer-preview-content .t36045 .no-wrap {
+        white-space: nowrap;
+    }
+
+    /* ### BASE - GRID AND RE-USABLE LAYOUT COMPONENTS ### */
+    .printer-preview-content .t36045 .row {
+        width: 100%;
+        display: block;
+        clear: both;
+    }
+
+    .printer-preview-content .t36045 .row:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    .printer-preview-content .t36045 .col-xs-1,
+    .printer-preview-content .t36045 .col-xs-2,
+    .printer-preview-content .t36045 .col-xs-3,
+    .printer-preview-content .t36045 .col-xs-4,
+    .printer-preview-content .t36045 .col-xs-5,
+    .printer-preview-content .t36045 .col-xs-6,
+    .printer-preview-content .t36045 .col-xs-7,
+    .printer-preview-content .t36045 .col-xs-8,
+    .printer-preview-content .t36045 .col-xs-9,
+    .printer-preview-content .t36045 .col-xs-10,
+    .printer-preview-content .t36045 .col-xs-11,
+    .printer-preview-content .t36045 .col-xs-12 {
+        float: left;
+        min-height: 1px;
+        margin-bottom: 32px;
+    }
+
+    .printer-preview-content .t36045 .col-xs-12 {
+        width: 100%;
+    }
+
+    .printer-preview-content .t36045 .col-xs-11 {
+        width: 91.66666667%;
+    }
+
+    .printer-preview-content .t36045 .col-xs-10 {
+        width: 83.33333333%;
+    }
+
+    .printer-preview-content .t36045 .col-xs-9 {
+        width: 75%;
+    }
+
+    .printer-preview-content .t36045 .col-xs-8 {
+        width: 66.66666667%;
+    }
+
+    .printer-preview-content .t36045 .col-xs-7 {
+        width: 58.33333333%;
+    }
+
+    .printer-preview-content .t36045 .col-xs-6 {
+        width: 50%;
+    }
+
+    .printer-preview-content .t36045 .col-xs-5 {
+        width: 41.66666667%;
+    }
+
+    .printer-preview-content .t36045 .col-xs-4 {
+        width: 33.33333333%;
+    }
+
+    .printer-preview-content .t36045 .col-xs-3 {
+        width: 25%;
+    }
+
+    .printer-preview-content .t36045 .col-xs-2 {
+        width: 16.66666667%;
+    }
+
+    .printer-preview-content .t36045 .col-xs-1 {
+        width: 8.33333333%;
+    }
+
+    .printer-preview-content .t36045 .col-no-margin {
+        margin-bottom: 0 !important;
+    }
+
+    .printer-preview-content .t36045 .clear-fix {
+        clear: both;
+    }
+
+    .printer-preview-content .t36045 .half-margin-top {
+        margin-top: 8px !important;
+    }
+
+    .printer-preview-content .t36045 .half-margin-bottom {
+        margin-bottom: 8px !important;
+    }
+
+    .printer-preview-content .t36045 .margin-top {
+        margin-top: 16px !important;
+    }
+
+    .printer-preview-content .t36045 .margin-bottom {
+        margin-bottom: 16px !important;
+    }
+
+    .printer-preview-content .t36045 .double-margin-top {
+        margin-top: 32px !important;
+    }
+
+    .printer-preview-content .t36045 .double-margin-bottom {
+        margin-bottom: 32px !important;
+    }
+
+    /* ### BASE - TABLE STYLING ### */
+    .printer-preview-content .t36045 table,
+    .printer-preview-content .t36045 .table {
+        width: 100%;
+        max-width: 100%;
+        background-color: transparent;
+        border-collapse: collapse;
+    }
+
+    .printer-preview-content .t36045 table thead {
+        display: table-row-group;
+    }
+
+    .printer-preview-content .t36045 table tbody tr {
+        page-break-inside: avoid !important;
+        page-break-after: auto !important;
+    }
+
+    .printer-preview-content .t36045 table tbody tr td {
+        page-break-inside: avoid !important;
+    }
+
+    .printer-preview-content .t36045 th {
+        white-space: nowrap;
+        text-align: left;
+        vertical-align: middle;
+        border-top: 0;
+        border-bottom: 0;
+    }
+
+    .printer-preview-content .t36045 td {
+        vertical-align: middle;
+        border-top: 0;
+        border-bottom: 0;
+    }
+
+    .printer-preview-content .t36045 .order-table tbody>tr:nth-child(odd) td {
+        background-color: #f9f9f9;
+    }
+
+    .printer-preview-content .t36045 .pricing-table tbody>tr:nth-child(even)>td {
+        background-color: #f9f9f9;
+    }
+
+    .printer-preview-content .t36045 .pricing-table tbody>tr>td.pricing-table-title {
+        word-break: break-all;
+    }
+
+    .printer-preview-content .t36045 th.order-table-qty {
+        width: 10%;
+    }
+
+    .printer-preview-content .t36045 th.order-table-price {
+        width: 10%;
+    }
+
+    .printer-preview-content .t36045 th.order-table-item-total,
+    .printer-preview-content .t36045 th.order-table-reason {
+        width: 17%;
+    }
+
+    .printer-preview-content .t36045 th.order-table-return-comments {
+        width: 30%;
+    }
+
+    .printer-preview-content .t36045 .pricing-table-text {
+        text-align: right;
+        white-space: nowrap;
+    }
+
+    /* ### BASE -  IMAGE SIZING TO RETAIN LINE HEIGHT RYTHM) ### */
+    .printer-preview-content .t36045 .-image-wrapper {
+        width: 64px;
+        max-height: 64px;
+    }
+
+    .printer-preview-content .t36045 .-image {
+        padding: 0 4px;
+        page-break-inside: avoid !important;
+        max-width: 64px;
+    }
+
+    /* ### BASE - LISTS RESET ### */
+    .printer-preview-content .t36045 ul {
+        list-style: none;
+    }
+
+    .printer-preview-content .t36045 li {
+        color: #333333;
+        list-style: none;
+    }
+
+    /* ### BASE - LOGO ### */
+    .printer-preview-content .t36045 .logo-wrapper {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .printer-preview-content .t36045 .logo {
+        float: left;
+        padding-right: 15px;
+        max-width: 100%;
+        max-height: 108.0px;
+    }
+
+    /* ### BASE - BARCODE ### */
+    .printer-preview-content .t36045 .order-number-barcode,
+    .printer-preview-content .t36045 .-barcode {
+        display: block;
+    }
+
+    /* ### BASE - ADDITONAL COMMON SHARED TYPOGRAPHY AND ALIGNMENT ### */
+    .printer-preview-content .t36045 .address {
+        margin-right: 5%;
+        margin-top: -8%;
+    }
+    .printer-preview-content .t36045 .ship-too {
+        margin-left:33%;
+    }
+    
+
+
+    .printer-preview-content .t36045 .notes-title,
+    .printer-preview-content .t36045 .return-codes {
+        margin: 8px 0;
+    }
+
+    /* ### BASE - HORIZONTAL RULE MARKS ### */
+    .printer-preview-content .t36045 hr {
+        background: #f89900;
+        border-top: 0;
+        border: 0;
+        height: 2px;
+        width: 100%;
+        margin-bottom: -2px;
+    }
+
+}
+
+.bil-to{
+    background-color: #aed8fd;
+    margin-right: 35%  !important;
+}
+.ship-to{
+    background-color: #aed8fd;
+    margin-left: 33%  !important;
+}
+.bil-to .left{
+    padding-left:9px;
+}
+.ship-to .right{
+    padding-left:9px;
+}
+
+.shipment-information .left{
+    background-color: #aed8fd;
+    padding-left:9px;
+}
+.printer-preview-content .t36045 .shipment-info-text-left {
+    margin-top: -18%;
+}
+.printer-preview-content .t36045 .shipment-info-text-right {
+    margin-top: -14%;
+}
+.printer-preview-content .t36045 .shipment-info-input-left {
+    margin-top: -10%;
+}
+.printer-preview-content .t36045 .shipment-info-input-right {
+    margin-top: -14%;
+	margin-left: -7%;
+}
+/* .printer-preview-content .t36045 .shipment-info-input-right input {
+    padding-right: 27%;
+} */
+/* .printer-preview-content .t36045 .shipment-info-input-left input {
+    padding-right: 41%;
+} */
+.printer-preview-content .t36045 .shipment-info-text-right li{
+    padding-bottom: 3%;
+	margin-left: 8%;
+}
+.printer-preview-content .t36045 .shipment-info-text-left li{
+    padding-bottom: 3%;
+}
+.printer-preview-content .t36045 .addtional-info-text-left {
+    margin-top: -18%;
+}
+.printer-preview-content .t36045 .addtional-info-text-left  li{
+    padding-bottom: 3%;
+}
+.printer-preview-content .t36045 .addtional-info-input-left {
+    margin-top: -4%;
+}
+.printer-preview-content .t36045 .addtional-info-text-right {
+    margin-top: -27%;
+	margin-left: 8%;
+}
+.printer-preview-content .t36045 .addtional-info-text-right  li{
+    padding-bottom: 3%;
+}
+.printer-preview-content .t36045 .addtional-info-input-left_2 {
+    margin-top: -19%;
+    margin-left: -33%;
+}
+/* .printer-preview-content .t36045 .addtional-info-input-left_2 input {
+    padding-right: 40%;
+} */
+.printer-preview-content .t36045 .addtional-info-input-right {
+    margin-top: -14%;
+    
+}
+/* .printer-preview-content .t36045 .addtional-info-input-right input {
+    padding-right: 42%;
+} */
+/* .printer-preview-content .t36045 .addtional-info-input-left input {
+    padding-right: 77%;
+} */
+input[type="text"]
+{
+    font-size:10px !important;
+}
+.addtional-information .left{
+    background-color: #aed8fd;
+    padding-left:9px;
+}
+.printer-preview-content .t36045 .as {
+	margin-top: -3%;
+	background-color: #aed8fd;
+}
+.special-information .left{
+    background-color: #aed8fd;
+    padding-left: 9px;
+    padding-top: 7px;
+    /* margin-top: 10px; */
+    padding-bottom: 1%;
+}
+.printer-preview-content .t36045 .notes{
+	border-right: 2px solid #b1a7a7;
+    border-bottom: 2px solid #b1a7a7;
+    border-top: 2px solid #b1a7a7;
+    border-left: 2px solid #b1a7a7;
+    
+}
+.printer-preview-content .t36045 .term-conditions-desc{
+	font-weight: bold !important;
+    text-align: justify;
+	margin-right: 1%;
+	
+}
+.printer-preview-content .t36045 .term-conditions-desc b{
+	
+	font-size: 10px !important;
+}
+.printer-preview-content .t36045 .declar{
+	margin: 1%;
+}
+.printer-preview-content .t36045 .term-conditions li{
+	font-size: 9px !important;
+    font-weight: bold;
+}
+
+.printer-preview-content .signature{
+	padding-top: 5%;
+}
